@@ -17,6 +17,10 @@ final appRouter = GoRouter(
     GoRoute(
       path: '/cards',
       builder: (context, state) => const CardScreen()
+    ),
+    GoRoute(
+      path: '/animated',
+      builder: (context, state) => const AnimatedScreen()
     ), 
 
   ]
