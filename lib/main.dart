@@ -14,7 +14,6 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: AppTheme(selectedColor: 8).getTheme(),
       title: 'Material App',
-
     );
   }
 }
