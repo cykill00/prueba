@@ -27,6 +27,14 @@ const appMenuItem = <MenuItem>[
     icon: Icons.credit_card_outlined),
 
   MenuItem(
+    title:'Progress Indicators',
+    subTitle:'Generales y controlados',
+    link: '/progress',
+    icon: Icons.refresh_rounded),
+  
+  
+  
+  MenuItem(
     title:'AnimatedScreen',
     subTitle:'Un contenedor estilizado',
     link: '/animated',
