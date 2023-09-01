@@ -8,7 +8,6 @@ class AnimatedScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Animated Screen'),
-        centerTitle: true,
       ),
       body: const _AnimatedView(),
     );
