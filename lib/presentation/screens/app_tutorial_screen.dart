@@ -75,8 +75,7 @@ class _AppTutorialScreenState extends State<AppTutorialScreen> {
               ? Positioned(
                   bottom: 20,
                   right: 20,
-                  child: FadeInRight(
-                    from: 15,
+                  child: FadeIn(
                     delay: const Duration(milliseconds: 200),
                     child: FilledButton(
                         onPressed: () => context.pop(),
